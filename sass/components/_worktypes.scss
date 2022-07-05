@@ -16,10 +16,9 @@
 
 .worktypes-list {
   display: flex;
-}
-
-.worktypes-list .worktypes-item + .worktypes-item {
-  margin-left: 30px;
+  .worktypes-item + .worktypes-item {
+    margin-left: 30px;
+  }
 }
 
 .worktypes-photo {

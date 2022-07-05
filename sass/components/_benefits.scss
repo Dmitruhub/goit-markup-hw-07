@@ -7,15 +7,16 @@
   margin-bottom: 0;
   background-color: var(--primery-bg-color);
 }
-.benefits-list {
+
+.menu {
   display: flex;
 }
 
-.benefits-list .benefits-item + .benefits-item {
+.menu .menu_item + .menu_item {
   margin-left: 30px;
 }
 
-.benefits-title {
+.menu_title {
   margin-top: 0;
   margin-bottom: 10px;
   color: var(--title-text-color);
@@ -25,7 +26,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.benefits-text {
+.menu_text {
   width: 270px;
   margin-top: 0;
   margin-bottom: 0;
@@ -35,7 +36,7 @@
   letter-spacing: 0.03em;
 }
 
-.benefits-picture {
+.menu_picture {
   display: flex;
   width: 270px;
   height: 120px;
@@ -46,6 +47,6 @@
   background-color: var(--command-bg-color);
 }
 
-.benefits-icon {
+.menu_icon {
   margin: 0;
 }
