@@ -134,6 +134,12 @@ body {
   color: var(--title-text-color);
 }
 
+.nav-list_link.current,
+.nav-list_link:hover,
+.nav-list_link:focus {
+  color: var(--accennt-color);
+}
+
 .nav-list_link {
   position: relative;
   display: block;
@@ -143,7 +149,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--accennt-color);
+  color: var(--title-text-color);
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -511,7 +517,6 @@ body {
 .menu {
   display: flex;
 }
-
 .menu .menu_item + .menu_item {
   margin-left: 30px;
 }
@@ -974,13 +979,13 @@ body {
   margin-bottom: 50px;
   justify-content: center;
 }
+.portfoliobutton-list .portfoliobutton-item + .portfoliobutton-item {
+  margin-left: 8px;
+}
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-}
-.portfolio-list .portfoliobutton-item + .portfoliobutton-item {
-  margin-left: 8px;
 }
 
 .portfolio-item {

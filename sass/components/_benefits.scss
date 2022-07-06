@@ -10,10 +10,9 @@
 
 .menu {
   display: flex;
-}
-
-.menu .menu_item + .menu_item {
-  margin-left: 30px;
+  .menu_item + .menu_item {
+    margin-left: 30px;
+  }
 }
 
 .menu_title {

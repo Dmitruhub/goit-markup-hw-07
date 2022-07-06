@@ -45,6 +45,12 @@
   color: var(--title-text-color);
 }
 
+.nav-list_link.current,
+.nav-list_link:hover,
+.nav-list_link:focus {
+  color: var(--accennt-color);
+}
+
 .nav-list_link {
   position: relative;
   display: block;
@@ -54,7 +60,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--accennt-color);
+  color: var(--title-text-color);
   @include transition(color, null, null, 250ms, cubic-bezier(0.4, 0, 0.2, 1));
   .nav-list &:after {
     position: absolute;
@@ -75,7 +81,6 @@
       cubic-bezier(0.4, 0, 0.2, 1)
     );
   }
-
   &:hover::after,
   &:focus::after {
     opacity: 1;

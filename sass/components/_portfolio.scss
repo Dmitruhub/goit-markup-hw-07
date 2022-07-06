@@ -8,14 +8,14 @@
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
+  .portfoliobutton-item + .portfoliobutton-item {
+    margin-left: 8px;
+  }
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  .portfoliobutton-item + .portfoliobutton-item {
-    margin-left: 8px;
-  }
 }
 
 .portfolio-item {
